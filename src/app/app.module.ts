@@ -9,13 +9,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {ComponentsPage} from "../pages/components/components";
 import {ComponentActionSheetsPage} from "../pages/component-action-sheets/component-action-sheets";
+import{ComponentAlertPage} from '../pages/component-alert/component-alert'
+
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage, ComponentsPage,ComponentActionSheetsPage
+    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -25,7 +27,7 @@ import {ComponentActionSheetsPage} from "../pages/component-action-sheets/compon
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage, ComponentsPage,ComponentActionSheetsPage
+    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage
   ],
   providers: [
     StatusBar,
