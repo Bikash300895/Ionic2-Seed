@@ -13,6 +13,8 @@ import { NavController, NavParams, AlertController } from 'ionic-angular';
 })
 export class ComponentAlertPage {
 
+  data:any;
+
   constructor(public navCtrl: NavController,public alertCtrl:AlertController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
@@ -54,5 +56,55 @@ export class ComponentAlertPage {
       ]
     });
     prompt.present();
+  }
+
+  showCheckbox() {
+    let alert = this.alertCtrl.create();
+    alert.setTitle('Which planets have you visited?');
+
+    alert.addInput({
+      type: 'checkbox',
+      label: 'Alderaan',
+      value: 'value1',
+      checked: true
+    });
+
+    alert.addInput({
+      type: 'checkbox',
+      label: 'Bespin',
+      value: 'value2'
+    });
+
+    alert.addButton('Cancel');
+    alert.addButton({
+      text: 'Okay',
+      handler: data => {
+        console.log('Checkbox data:', data);
+        this.data=data;
+      }
+    });
+    alert.present();
+  }
+
+  showRadio() {
+    let alert = this.alertCtrl.create();
+    alert.setTitle('Lightsaber color');
+
+    alert.addInput({
+      type: 'radio',
+      label: 'Blue',
+      value: 'blue',
+      checked: true
+    });
+
+    alert.addButton('Cancel');
+    alert.addButton({
+      text: 'OK',
+      handler: data => {
+        this.data=data;
+        console.log(data);
+      }
+    });
+    alert.present();
   }
 }
