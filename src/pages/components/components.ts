@@ -5,6 +5,7 @@ import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
+import {BlogPage} from "../blog-page/blog-page";
 
 
 @Component({
@@ -17,6 +18,7 @@ export class ComponentsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
       { title: 'Basic Components', component: BasicComponentsPage},
+      { title: 'Blog posts', component: BlogPage},
       { title: 'Cards', component: ComponentCardPage},
       { title: 'Backgournd Cards', component: ComponentBackgroundCardPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},

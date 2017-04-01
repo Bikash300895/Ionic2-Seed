@@ -12,13 +12,14 @@ import {BasicComponentsPage} from '../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../pages/component-background-card/component-background-card';
 import {LoveComponent} from '../component/love/love.component';
+import {BlogPage} from '../pages/blog-page/blog-page';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
-    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,7 +28,7 @@ import {LoveComponent} from '../component/love/love.component';
   entryComponents: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
-    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage
   ],
   providers: [
     StatusBar,
