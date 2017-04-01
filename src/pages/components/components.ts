@@ -3,7 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/component-action-sheets';
 import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
-import {ComponentCardPage} from '../pages/component-card/component-card';
+import {ComponentCardPage} from '../../pages/component-card/component-card';
 
 
 @Component({
