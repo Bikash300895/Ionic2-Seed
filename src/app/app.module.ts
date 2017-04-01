@@ -9,7 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {ComponentsPage} from "../pages/components/components";
 import {ComponentActionSheetsPage} from "../pages/component-action-sheets/component-action-sheets";
-import{ComponentAlertPage} from '../pages/component-alert/component-alert'
+import{ComponentAlertPage} from '../pages/component-alert/component-alert';
+import {BasicComponentsPage} from '../pages/basic-components/basic-components';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import{ComponentAlertPage} from '../pages/component-alert/component-alert'
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage
+    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,7 +28,7 @@ import{ComponentAlertPage} from '../pages/component-alert/component-alert'
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage
+    ListPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage
   ],
   providers: [
     StatusBar,

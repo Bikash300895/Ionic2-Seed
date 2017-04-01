@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/component-action-sheets'
-import{ComponentAlertPage} from '../../pages/component-alert/component-alert'
+import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/component-action-sheets';
+import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
+import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
 
 /*
   Generated class for the Components page.
@@ -18,6 +19,7 @@ export class ComponentsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
+      { title: 'Basic Components', component: BasicComponentsPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},
       { title: 'Alert', component: ComponentAlertPage}
     ];
