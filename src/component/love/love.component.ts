@@ -3,14 +3,12 @@ import {Component, Input} from '@angular/core';
 @Component({
     selector: 'love',
     template: `
-    <div>
+        <span>{{ totalLikes }}</span>
         <span 
             class="glyphicon glyphicon-heart"
             [class.highlighted]="iLike"
             (click)="onClick()" >
         </span>
-        <span>{{ totalLikes }}</span>
-    </div>
         
     `,
     styles: [`
