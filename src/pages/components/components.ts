@@ -3,13 +3,9 @@ import { NavController, NavParams } from 'ionic-angular';
 import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/component-action-sheets';
 import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
+import {ComponentCardPage} from '../pages/component-card/component-card';
 
-/*
-  Generated class for the Components page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-components',
   templateUrl: 'components.html'
@@ -20,6 +16,7 @@ export class ComponentsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
       { title: 'Basic Components', component: BasicComponentsPage},
+      { title: 'Cards', component: ComponentCardPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},
       { title: 'Alert', component: ComponentAlertPage}
     ];

@@ -9,12 +9,14 @@ import {ComponentsPage} from "../pages/components/components";
 import {ComponentActionSheetsPage} from "../pages/component-action-sheets/component-action-sheets";
 import{ComponentAlertPage} from '../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../pages/basic-components/basic-components';
+import {ComponentCardPage} from '../pages/component-card/component-card';
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage
+    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
+    ComponentCardPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -22,7 +24,8 @@ import {BasicComponentsPage} from '../pages/basic-components/basic-components';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage
+    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
+    ComponentCardPage
   ],
   providers: [
     StatusBar,
