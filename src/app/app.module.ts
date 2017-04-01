@@ -11,13 +11,14 @@ import{ComponentAlertPage} from '../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../pages/component-background-card/component-background-card';
+import {LoveComponent} from '../component/love/love.component';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
-    ComponentCardPage,ComponentBackgroundCardPage
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -26,7 +27,7 @@ import {ComponentBackgroundCardPage} from '../pages/component-background-card/co
   entryComponents: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,
-    ComponentCardPage,ComponentBackgroundCardPage
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent
   ],
   providers: [
     StatusBar,
