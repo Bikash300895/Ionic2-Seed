@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {LoveComponent} from '../../component/love/love.component';
 
-/*
-  Generated class for the BlogPage page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-blog',
-  templateUrl: 'blog-page.html'
+  templateUrl: 'blog-page.html',
+  providers: [LoveComponent]
 })
 export class BlogPage {
 
