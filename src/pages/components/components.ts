@@ -4,6 +4,7 @@ import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/com
 import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../../pages/component-card/component-card';
+import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
 
 
 @Component({
@@ -17,6 +18,7 @@ export class ComponentsPage {
     this.pages = [
       { title: 'Basic Components', component: BasicComponentsPage},
       { title: 'Cards', component: ComponentCardPage},
+      { title: 'Backgournd Cards', component: ComponentBackgroundCardPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},
       { title: 'Alert', component: ComponentAlertPage}
     ];
