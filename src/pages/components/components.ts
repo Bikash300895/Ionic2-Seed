@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import {ComponentActionSheetsPage} from '../../pages/component-action-sheets/component-action-sheets';
-import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
+import {ComponentActionSheetsPage} from '../action-sheets/component-action-sheets';
+import{ComponentAlertPage} from '../alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
-import {ComponentCardPage} from '../../pages/component-card/component-card';
-import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
+import {ComponentCardPage} from '../card/component-card';
+import {ComponentBackgroundCardPage} from '../background-card/component-background-card';
 import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
 import {InputPage} from "../input/input";
 import {ListPage} from "../../pages/list/list";
 import {AvaterPagePage} from "../avater-page/avater-page";
-import {ModelPage} from "../model/model";
+import {ModelPage} from "../modal/model";
 
 
 
@@ -33,7 +33,7 @@ export class ComponentsPage {
       { title: 'Taking input', component: InputPage},
       { title: 'A List page', component: ListPage},
       { title: 'Avater page', component: AvaterPagePage},
-      { title: 'Model', component: ModelPage},
+      { title: 'Modal', component: ModelPage},
     ];
   }
 
