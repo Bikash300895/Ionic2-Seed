@@ -8,7 +8,7 @@ import {ComponentBackgroundCardPage} from '../../pages/component-background-card
 import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
 import {InputPage} from "../input/input";
-import {ListPage} from "../list/list";
+import {ListPage} from "../../pages/list/list";
 
 
 

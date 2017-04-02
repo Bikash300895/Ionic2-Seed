@@ -14,6 +14,8 @@
 
 
 <ion-content padding>
+  <h2>List of items</h2>
+
   <ion-list no-lines>
     <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
       {{ item }}
