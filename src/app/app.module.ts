@@ -21,6 +21,7 @@ import {ModelPage} from "../pages/modal/model";
 import {ModalContent} from "../pages/modal/ModalContent";
 import {PopoverPage} from "../pages/popover/popover";
 import {PopOverContent} from "../pages/popover/PopOverContent";
+import {RangePage} from "../pages/range/range";
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import {PopOverContent} from "../pages/popover/PopOverContent";
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage, ModelPage, ModalContent,
-      PopoverPage,PopOverContent,
+      PopoverPage,PopOverContent, RangePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -38,7 +39,7 @@ import {PopOverContent} from "../pages/popover/PopOverContent";
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage, ModelPage, ModalContent,
-    PopoverPage,PopOverContent
+    PopoverPage,PopOverContent, RangePage
   ],
   providers: [
     StatusBar,

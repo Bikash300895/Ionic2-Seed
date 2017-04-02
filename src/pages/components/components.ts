@@ -12,6 +12,7 @@ import {ListPage} from "../../pages/list/list";
 import {AvaterPagePage} from "../avater-page/avater-page";
 import {ModelPage} from "../modal/model";
 import {PopoverPage} from "../popover/popover";
+import {RangePage} from "../range/range";
 
 
 
@@ -36,6 +37,7 @@ export class ComponentsPage {
       { title: 'Avater page', component: AvaterPagePage},
       { title: 'Modal', component: ModelPage},
       { title: 'PopOver', component: PopoverPage},
+      { title: 'Range', component: RangePage},
     ];
   }
 
