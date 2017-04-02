@@ -19,7 +19,7 @@ export class ModelPage {
               public navParams: NavParams) {}
 
   openModal(charNum){
-    let modal = this.modelCtrl.create(ModalContent);
+    let modal = this.modelCtrl.create(ModalContent, charNum);
     modal.present();
   }
 
