@@ -11,6 +11,7 @@ import {InputPage} from "../input/input";
 import {ListPage} from "../../pages/list/list";
 import {AvaterPagePage} from "../avater-page/avater-page";
 import {ModelPage} from "../modal/model";
+import {PopoverPage} from "../popover/popover";
 
 
 
@@ -34,6 +35,7 @@ export class ComponentsPage {
       { title: 'A List page', component: ListPage},
       { title: 'Avater page', component: AvaterPagePage},
       { title: 'Modal', component: ModelPage},
+      { title: 'PopOver', component: PopoverPage},
     ];
   }
 
