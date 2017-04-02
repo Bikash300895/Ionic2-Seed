@@ -16,13 +16,14 @@ import {BlogPage} from '../pages/blog-page/blog-page';
 import {FabPage} from '../pages/fab/fab';
 import {InputPage} from '../pages/input/input';
 import {ListPage} from "../pages/list/list";
+import {AvaterPagePage} from "../pages/avater-page/avater-page";
 
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
-    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -31,7 +32,7 @@ import {ListPage} from "../pages/list/list";
   entryComponents: [
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
-    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage
+    ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage
   ],
   providers: [
     StatusBar,

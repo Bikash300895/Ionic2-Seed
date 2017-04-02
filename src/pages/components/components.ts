@@ -9,6 +9,7 @@ import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
 import {InputPage} from "../input/input";
 import {ListPage} from "../../pages/list/list";
+import {AvaterPagePage} from "../avater-page/avater-page";
 
 
 
@@ -30,6 +31,7 @@ export class ComponentsPage {
       { title: 'Fab', component: FabPage},
       { title: 'Taking input', component: InputPage},
       { title: 'A List page', component: ListPage},
+      { title: 'Avater page', component: AvaterPagePage},
     ];
   }
 
