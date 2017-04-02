@@ -5,7 +5,7 @@ import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
-import {BlogPage} from "../../blog-page/blog-page";
+import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
 
 
