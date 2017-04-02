@@ -22,7 +22,43 @@
       <h2>This is the header</h2>
       <p>This is the long long description of the post</p>
       <p>This is for test perpose</p>
-      <p>This is the line three</p>
     </ion-item>
+  </ion-list>
+</ion-content>
+
+<br>
+<h2>Sliding list item</h2>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/people/Pl.jpg">
+        </ion-avatar>
+        <h2>This is the header</h2>
+        <p>This is the long long description of the post</p>
+        <p>This is for test perpose</p>
+      </ion-item>
+
+      <ion-item-options>
+        <ion-item-options side="left">
+          <button ion-button color="primary">
+            <ion-icon name="text"></ion-icon>
+            Text
+          </button>
+          <button ion-button color="secondary">
+            <ion-icon name="call"></ion-icon>
+            Call
+          </button>
+        </ion-item-options>
+        <ion-item-options side="right">
+          <button ion-button color="primary">
+            <ion-icon name="mail"></ion-icon>
+            Email
+          </button>
+        </ion-item-options>
+      </ion-item-options>
+    </ion-item-sliding>
   </ion-list>
 </ion-content>
