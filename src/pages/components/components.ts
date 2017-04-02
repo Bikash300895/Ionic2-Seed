@@ -5,7 +5,9 @@ import{ComponentAlertPage} from '../../pages/component-alert/component-alert';
 import {BasicComponentsPage} from '../../pages/basic-components/basic-components';
 import {ComponentCardPage} from '../../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
-import {BlogPage} from "../blog-page/blog-page";
+import {BlogPage} from "../../blog-page/blog-page";
+import {FabPage} from '../../pages/fab/fab';
+
 
 
 @Component({
@@ -22,7 +24,8 @@ export class ComponentsPage {
       { title: 'Cards', component: ComponentCardPage},
       { title: 'Backgournd Cards', component: ComponentBackgroundCardPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},
-      { title: 'Alert', component: ComponentAlertPage}
+      { title: 'Alert', component: ComponentAlertPage},
+      { title: 'Fab', component: FabPage}
     ];
   }
 
