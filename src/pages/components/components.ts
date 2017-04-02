@@ -8,6 +8,7 @@ import {ComponentBackgroundCardPage} from '../../pages/component-background-card
 import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
 import {InputPage} from "../input/input";
+import {ListPage} from "../list/list";
 
 
 
@@ -28,6 +29,7 @@ export class ComponentsPage {
       { title: 'Alert', component: ComponentAlertPage},
       { title: 'Fab', component: FabPage},
       { title: 'Taking input', component: InputPage},
+      { title: 'A List page', component: ListPage},
     ];
   }
 
