@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ModalController } from 'ionic-angular';
+import {ModalContent} from "./ModalContent";
 
 /*
   Generated class for the Model page.
@@ -18,7 +19,8 @@ export class ModelPage {
               public navParams: NavParams) {}
 
   openModal(charNum){
-    let modal = this.modelCtrl.create();
+    let modal = this.modelCtrl.create(ModalContent);
+    modal.present();
   }
 
 }
