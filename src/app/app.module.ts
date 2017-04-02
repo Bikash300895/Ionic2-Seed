@@ -14,12 +14,13 @@ import {ComponentBackgroundCardPage} from '../pages/component-background-card/co
 import {LoveComponent} from '../component/love/love.component';
 import {BlogPage} from '../pages/blog-page/blog-page';
 import {FabPage} from '../pages/fab/fab';
+import {InputPage} from '../pages/input/input';
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,
+    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage
   ],
   imports: [
@@ -28,7 +29,7 @@ import {FabPage} from '../pages/fab/fab';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,
+    HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage
   ],
   providers: [

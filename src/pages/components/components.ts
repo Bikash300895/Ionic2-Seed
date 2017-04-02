@@ -7,6 +7,7 @@ import {ComponentCardPage} from '../../pages/component-card/component-card';
 import {ComponentBackgroundCardPage} from '../../pages/component-background-card/component-background-card';
 import {BlogPage} from "../blog-page/blog-page";
 import {FabPage} from '../../pages/fab/fab';
+import {InputPage} from "../input/input";
 
 
 
@@ -25,7 +26,8 @@ export class ComponentsPage {
       { title: 'Backgournd Cards', component: ComponentBackgroundCardPage},
       { title: 'Action Sheets', component: ComponentActionSheetsPage},
       { title: 'Alert', component: ComponentAlertPage},
-      { title: 'Fab', component: FabPage}
+      { title: 'Fab', component: FabPage},
+      { title: 'Taking input', component: InputPage},
     ];
   }
 
