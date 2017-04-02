@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 import { NavController, NavParams, PopoverController  } from 'ionic-angular';
 import {PopOverContent} from "./PopOverContent";
 
@@ -13,14 +13,22 @@ import {PopOverContent} from "./PopOverContent";
   templateUrl: 'popover.html'
 })
 export class PopoverPage {
+  @ViewChild('popoverContent', { read: ElementRef }) content: ElementRef;
+  @ViewChild('popoverText', { read: ElementRef }) text: ElementRef;
+
 
   constructor(public navCtrl: NavController,
               public popoverCtrl: PopoverController ,
               public navParams: NavParams) {}
 
   presentPopover(ev){
-    let popover = this.popoverCtrl.create(PopOverContent);
-    popover.present();
+    let popover = this.popoverCtrl.create(PopOverContent,{
+      contentEle: this.content.nativeElement,
+      textEle: this.text.nativeElement
+    });
+    popover.present({
+      ev: ev
+    });
   }
 
 }
