@@ -13,6 +13,7 @@ import {AvaterPagePage} from "../avater-page/avater-page";
 import {ModelPage} from "../modal/model";
 import {PopoverPage} from "../popover/popover";
 import {RangePage} from "../range/range";
+import {SearchPage} from "../search/search";
 
 
 
@@ -38,6 +39,7 @@ export class ComponentsPage {
       { title: 'Modal', component: ModelPage},
       { title: 'PopOver', component: PopoverPage},
       { title: 'Range', component: RangePage},
+      { title: 'Search in Page', component: SearchPage},
     ];
   }
 
