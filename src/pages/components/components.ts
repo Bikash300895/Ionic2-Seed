@@ -14,6 +14,7 @@ import {ModelPage} from "../modal/model";
 import {PopoverPage} from "../popover/popover";
 import {RangePage} from "../range/range";
 import {SearchPage} from "../search/search";
+import {SegmentsPage} from "../segments/segments";
 
 
 
@@ -40,6 +41,7 @@ export class ComponentsPage {
       { title: 'PopOver', component: PopoverPage},
       { title: 'Range', component: RangePage},
       { title: 'Search in Page', component: SearchPage},
+      { title: 'Page Segment', component: SegmentsPage},
     ];
   }
 
