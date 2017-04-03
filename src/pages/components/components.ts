@@ -16,6 +16,7 @@ import {RangePage} from "../range/range";
 import {SearchPage} from "../search/search";
 import {SegmentsPage} from "../segments/segments";
 import {SelectPage} from "../select/select";
+import {TabPage} from "../tab/tab";
 
 
 
@@ -44,6 +45,7 @@ export class ComponentsPage {
       { title: 'Search in Page', component: SearchPage},
       { title: 'Page Segment', component: SegmentsPage},
       { title: 'Select page', component: SelectPage},
+      { title: 'Tab page', component: TabPage},
     ];
   }
 

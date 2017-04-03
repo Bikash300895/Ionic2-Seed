@@ -25,6 +25,7 @@ import {RangePage} from "../pages/range/range";
 import {SearchPage} from "../pages/search/search";
 import {SegmentsPage} from "../pages/segments/segments";
 import {SelectPage} from "../pages/select/select";
+import {TabPage} from "../pages/tab/tab";
 
 
 @NgModule({
@@ -32,7 +33,7 @@ import {SelectPage} from "../pages/select/select";
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage, ModelPage, ModalContent,
-      PopoverPage,PopOverContent, RangePage, SearchPage, SegmentsPage, SelectPage
+      PopoverPage,PopOverContent, RangePage, SearchPage, SegmentsPage, SelectPage, TabPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +43,7 @@ import {SelectPage} from "../pages/select/select";
     MyApp,
     HelloIonicPage, ComponentsPage,ComponentActionSheetsPage,ComponentAlertPage,BasicComponentsPage,FabPage,InputPage,
     ComponentCardPage,ComponentBackgroundCardPage,LoveComponent,BlogPage,ListPage, AvaterPagePage, ModelPage, ModalContent,
-    PopoverPage,PopOverContent, RangePage, SearchPage, SegmentsPage, SelectPage
+    PopoverPage,PopOverContent, RangePage, SearchPage, SegmentsPage, SelectPage, TabPage
   ],
   providers: [
     StatusBar,
