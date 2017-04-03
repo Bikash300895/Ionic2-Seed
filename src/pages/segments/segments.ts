@@ -12,6 +12,7 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'segments.html'
 })
 export class SegmentsPage {
+  pet: string = "ducklings";
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
