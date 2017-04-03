@@ -12,6 +12,12 @@
       Adjust Display
     </ion-list-header>
     <ion-item>
+      Brightess
+      <ion-badge item-right>{{this.brightness}}</ion-badge>
+
+
+    </ion-item>
+    <ion-item>
       <ion-range [(ngModel)]="brightness">
         <ion-icon range-left small name="sunny"></ion-icon>
         <ion-icon range-right name="sunny"></ion-icon>
