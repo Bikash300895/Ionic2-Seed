@@ -15,7 +15,10 @@
 
 <ion-content padding>
   <ion-tabs>
-    <ion-tab tabIcon="heart" [root]="tab1"></ion-tab>
-    <ion-tab tabIcon="star" [root]="tab2"></ion-tab>
+    <ion-tabs>
+      <ion-tab tabIcon="call" [root]="tab1" tabBadge="3" tabBadgeStyle="danger"></ion-tab>
+      <ion-tab tabIcon="chatbubbles" [root]="tab2" tabBadge="14" tabBadgeStyle="danger"></ion-tab>
+      <ion-tab tabIcon="musical-notes" [root]="tab3"></ion-tab>
+    </ion-tabs>
   </ion-tabs>
 </ion-content>
