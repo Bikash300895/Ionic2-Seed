@@ -15,6 +15,7 @@ import {PopoverPage} from "../popover/popover";
 import {RangePage} from "../range/range";
 import {SearchPage} from "../search/search";
 import {SegmentsPage} from "../segments/segments";
+import {SelectPage} from "../select/select";
 
 
 
@@ -42,6 +43,7 @@ export class ComponentsPage {
       { title: 'Range', component: RangePage},
       { title: 'Search in Page', component: SearchPage},
       { title: 'Page Segment', component: SegmentsPage},
+      { title: 'Select page', component: SelectPage},
     ];
   }
 
